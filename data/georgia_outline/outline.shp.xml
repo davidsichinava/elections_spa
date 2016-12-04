@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>JumpStart International OMC Project</origin>
+				<pubdate>2011</pubdate>
+				<title Sync="TRUE">district_poly</title>
+				<edition>2011 Public Domain Edition</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>http://data.jumpstartinternational.org</onlink>
+				<ftname Sync="TRUE">district_poly</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>JumpStart International's January 2011 Georgia files have been exported from a central database built on the open source OpenStreetMap stack.  All field work for this project was conducted during 2010 by JumpStart's 10 regional Georgia offices.  The geographic coverage area for the complete data set is the entirety of the country of Georgia, excluding the two separatist regions of South Ossetia and Abkhazia.  The files contain spatial information for a series of feature types.  These features include country boundaries, road and rail network, landuse, hydrography, settlement points, and points of interest.</abstract>
+			<purpose>JumpStart is publicly releasing data produced during its 2010 Georgia mapping project for use in geographic information systems, web applications, or for other geographic applications.  Attribution is required in the form of "Data by JumpStart International" or as requested by JumpStart, unless explicit written permission is given otherwise.  Web applications built for use within Georgia must also link to MapSpot.ge.  Data usage is not limited by type of application and may be used for both commercial and non-commercial purposes.  More information about future data sets may be obtained from JumpStart International.</purpose>
+			<supplinf>The JumpStart Georgia Public Domain Data is based on its 2010 mapping project.  Future updates and commercial versions may be available in the future.  Contact JumpStart International for further information.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>April 2010</begdate>
+					<enddate>January 2011</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>2011</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>JumpStart Georgia files are extracted from its central database when substantial edits to the database have been made or when requested by partner organizations.  No changes are planned for the Public Domain edition as of February 2011.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">40.007541</westbc>
+				<eastbc Sync="TRUE">46.736442</eastbc>
+				<northbc Sync="TRUE">43.584638</northbc>
+				<southbc Sync="TRUE">41.055457</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">40.007541</leftbc><rightbc Sync="TRUE">46.736442</rightbc><bottombc Sync="TRUE">41.055457</bottombc><topbc Sync="TRUE">43.584638</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekey>Boundaries</themekey>
+				<themekey>Street Centerline</themekey>
+				<themekey>Point of Interest</themekey>
+				<themekey>Railway Line</themekey>
+				<themekey>Road Line</themekey>
+				<themekey>Polygon</themekey>
+				<themekey>Linear Feature</themekey>
+				<themekey>Point Feature</themekey>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt></theme>
+			<place>
+				<placekey>Georgia</placekey>
+				<placekey>Tbilisi</placekey>
+				<placekey>Adjara</placekey>
+				<placekey>Guria</placekey>
+				<placekey>Samegrelo</placekey>
+				<placekey>Imereti</placekey>
+				<placekey>Racha</placekey>
+				<placekey>Samtskhe Javakheti</placekey>
+				<placekey>Shida Kartli</placekey>
+				<placekey>Kvemo Kartli</placekey>
+				<placekey>Mtskheta Mtianeti</placekey>
+				<placekey>Kakheti</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Although there are no restrictions on use for JumpStart Georgia Public Domain data, attribution is required in the form of "Data by JumpStart International" being clearly displayed on any product in which the data is included, except when explicit written permission is given otherwise.  JumpStart International reserves the right to disallow usage of data for purposes that are considered illegal or contradict its organizational values.  There are no restrictions on commercial use of the data so long as they meet the above requirements.  Data derived from these files must also meet these requirements.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>JumpStart International</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>403 W. Ponce de Leon Ave.</address>
+					<address>Suite 216</address>
+					<city>Decatur</city>
+					<state>GA</state>
+					<postal>30030</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 868</address>
+					<city>Decatur</city>
+					<state>GA</state>
+					<postal>30031</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>+1-404-607-8153</cntvoice>
+				<cntemail>info@jsintl.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.0.1770</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Attributes have been collected by field teams and verified from a variety of government and non-governmental sources.  Due to the conflicts inherent between resources, complete accuracy is not guaranteed.</attraccr>
+		</attracc>
+		<logic>
+The following requirements have been validated through tests to ascertain logical consistency of the data:
+1)  Connecting roads must connect at nodes
+2)  Non-overlapping segments do not overlap
+3)  Polygons are closed
+Features have been examined for topological and attribute accuracy, though have not been fully tested.
+</logic>
+		<complete>Data is considered complete for all regions of Georgia.  This does not include breakaway regions of Abkhazia and South Ossetia.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>JumpStart International uses consumer grade Global Positioning System *GPS" devices to collect coordinates for road centerlines and points of interest.  This provides a locational accuracy of +/- 10 meters.  With rectified aerial imagery covering 90% of the country, GPS tracks and points are combined with imagery to achieve even higher accuracy.  In the mountainous regions of Mestia and Mtianeti, data was collected without imagery and with higher GPS error ranges of +/- 15 meters.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>JumpStart International</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<title>JumpStart International OMC Database</title>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>January 2011</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>JumpStart</srccitea>
+				<srccontr>Selected geographic data from the JumpStart International OMC database.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Selected features have been extracted from the JumpStart International OMC geographic database, which is built on the OpenStreetMap technology stack.  Data is initially exported from the database to OSM XML, and then converted into Shapefile format.  Data collection was conducted by teams of mappers updating the central database between September 2009 and January 2010.  Nationwide aerial imagery and GPS tracks were used for geographic accuracy and field work was conducted nationwide to ascertain accurate attributes.</procdesc>
+				<procdate>January 2011</procdate>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Users\Jeff\AppData\Local\Temp\xml5B30.tmp</srcused><procdate Sync="TRUE">20110208</procdate><proctime Sync="TRUE">11505300</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="district_poly">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">76</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="district_poly"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">76</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="district_poly">
+			<enttyp>
+				<enttypl Sync="TRUE">district_poly</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">76</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">Region_geo</attrlabl><attalias Sync="TRUE">Region_geo</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Region_Eng</attrlabl><attalias Sync="TRUE">Region_Eng</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Distr_Geo</attrlabl><attalias Sync="TRUE">Distr_Geo</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Distr_Eng</attrlabl><attalias Sync="TRUE">Distr_Eng</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Number_Dis</attrlabl><attalias Sync="TRUE">Number_Dis</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">Cntry_Eng</attrlabl><attalias Sync="TRUE">Cntry_Eng</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Cntry_Geo</attrlabl><attalias Sync="TRUE">Cntry_Geo</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr></detailed>
+		<overview>
+			<eaover>
+JumpStart's Georgia files contain data describing the following features:
+Line Features:
+1) District Boundaries
+2) City/Town Boundaries
+3) Tbilisi Districts
+4) Roads
+5) Railroads
+6) Hydrography
+7) Greenspace (parks, grass, cemeteries - sporadic coverage primarily in cities)
+Point Features:
+1) Settlement Points
+2) Landmarks (points of interest)
+3) Transportation (railway stations/airports)
+</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>JumpStart International</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>403 W. Ponce de Leon Ave</address>
+					<address>Suite 216</address>
+					<city>Decatur</city>
+					<state>GA</state>
+					<postal>30030</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 868</address>
+					<city>Decatur</city>
+					<state>GA</state>
+					<postal>30031</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>+1-404-607-8153</cntvoice>
+				<cntemail>info@jsintl.org</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>JumpStart International Georgia Public Domain Geodata</resdesc>
+		<distliab>No warranty either expressed or implied is made with regard to the accuracy of this data, and no liability is assumed by JumpStart International or its local implementation organizations for the spatial or attribute accuracy of the data.  The act of distribution does not constitute such a warranty and JumpStart International does not assume responsibility for the use of these files.  Boundary information contained in the JumpStart Georgia Public Domain files are for tabulation purposes only and do not constitute an official determination of jurisdictional authority or rights of ownership of entitlement and they are not legal land descriptions.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<transize>34.543</transize>
+					<dssize Sync="TRUE">0.469</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://data.jumpstartinternational.org</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>The JumpStart Georgia files may be accessed online without charge.</fees>
+		</stdorder>
+		<techpreq>JumpStart Georgia files contain geographic data only and do not include display or mapping software.  Relevant software applications may be required to view the data.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110215</metd>
+		<metrd>201102</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>JumpStart International</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper></cntorgp>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>403 W. Ponce de Leon Ave</address>
+					<address>Suite 216</address>
+					<city>Decatur</city>
+					<state>GA</state>
+					<postal>30030</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 868</address>
+					<city>Decatur</city>
+					<state>GA</state>
+					<postal>30031</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>+1-404-607-8153</cntvoice>
+				<cntemail>info@jsintl.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20161118</CreaDate><CreaTime>13394000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110215</SyncDate><SyncTime>13440800</SyncTime><ModDate>20110215</ModDate><ModTime>13442400</ModTime><ArcGISFormat>1.0</ArcGISFormat><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\CRRC-HP-1\D$\Mapping\Data\Georgia\administrative_division.mdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20111226" Time="122443">Project D:\Mapping\Data\Georgia\OSM\boundaries\district_poly.shp D:\Mapping\Data\Georgia\administrative_division.mdb\munic PROJCS['WGS_1984_UTM_Zone_38N',GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',500000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',45.0],PARAMETER['Scale_Factor',0.9996],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] # GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.0.1770</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">district_poly</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">40.007541</westBL><eastBL Sync="TRUE">46.736442</eastBL><northBL Sync="TRUE">43.584638</northBL><southBL Sync="TRUE">41.055457</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">40.007541</westBL><eastBL Sync="TRUE">46.736442</eastBL><northBL Sync="TRUE">43.584638</northBL><southBL Sync="TRUE">41.055457</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\JEFF-VAIO\Users\Jeff\Desktop\georgia_all\boundaries\district_poly.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.469</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="district_poly"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">76</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20110215</mdDateSt></metadata>
